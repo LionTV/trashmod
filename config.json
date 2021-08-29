@@ -3,6 +3,7 @@
     "client_secret": "xxx",
     "access_token": "xxx",
     "client": "xxx",
+    "channel": "xxx",
     "watchlist":[
         "GRONKH"
     ]
