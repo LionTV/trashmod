@@ -144,7 +144,7 @@ async def id(message):
 
 @loop(seconds=30)
 async def check_twitch_online_streamers():
-    channel = client.get_channel(832649579320836158)
+    channel = client.get_channel(config["channel"])
     #845292725539438672
     if not channel:
         return
