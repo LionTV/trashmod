@@ -23,12 +23,6 @@ async def status_task():
       await client.change_presence(activity=activity)
 
 @client.command()
-async def join(ctx):
-    channel = ctx.author.voice.channel
-    print(channel)
-    await channel.connect()
-
-@client.command()
 @commands.has_permissions(kick_members = True)
 async def kick(message, member: discord.Member, *, reason=None):
     for i in member.roles:
