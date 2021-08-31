@@ -3,7 +3,7 @@ Simple bot to manage your discord.
 
 Use:
 
-Import changes in the config.json:
+Important changes in the config.json:
 
 1) Replace the client_id with your twitch application client id
 2) Replace the client_secret with your twitch application client secret
