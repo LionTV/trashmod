@@ -11,6 +11,6 @@ Important changes in the config.json:
 4) Replace the channel id with the one where notifications should come from
 5) Last but not least add your streamers in the watchlist
 
-The Trashmode role must the second maybe under admin or owner.
+The Trashmode role must the second role maybe under admin or sth.
 
 Like I said, easy :D
